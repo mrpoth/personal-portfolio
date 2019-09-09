@@ -6,7 +6,7 @@ html {
     box-sizing: inherit;
 }
 
-$main-color:#121C3F;
+$main-color:#001f3f;
 
 a {
   text-decoration: none;
@@ -16,7 +16,7 @@ body {
 }
 
 .main-nav {
-  background-color:#36648B;
+  background-color:$main-color;
   font-size:25px;
 li {
     display: inline;
@@ -63,4 +63,8 @@ a:hover {
     display:block;
     padding:20px;
     }
+}
+.main-heading {
+  background-color:$main-color;
+  color: #fff;
 }

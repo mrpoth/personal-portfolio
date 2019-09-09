@@ -1,8 +1,5 @@
 @extends('_layouts.master')
-@section('title')
-
-  <title>Adam Pothitos</title>
-@endsection
+@section('title', 'Adam Pothitos - A Personal Site')
 @section('body')
 <nav class="main-nav">
   <ul class="main-menu">
@@ -20,10 +17,10 @@
 <h2>I'm a Junior Web Developer with an interest in</h2>
 <h3 id="tech-stack"></h3>
 </div>
-<h2 style="text-align:center;background-color:cornflowerblue;">A little bit about me</h2>
+<h2 class="main-heading" style="text-align:center;">A little bit about me</h2>
 <div class="about-me">
   <img src="https://images.squarespace-cdn.com/content/51cad0cfe4b0217d60343133/1467625638749-TCOI2EO372FEB8D0S9GE/Converging-on-Castlefield-Manchester-urban-landscape-photograph.jpg?format=750w&content-type=image%2Fjpeg" alt="">
   <p>Originally from Greece, I came over to the UK over six years ago to study at the university. I thought Manchester was pretty great so I decided to stay!</p>
 </div>
-<h2 style="background-color:cornflowerblue;text-align:center;">Some of my projects</h2>
+<h2 class="main-heading" style="text-align:center;">Some of my projects</h2>
 @endsection

@@ -16,7 +16,7 @@ body {
 }
 
 .main-nav {
-  background-color: #36648B;
+  background-color: #001f3f;
   font-size: 25px;
 }
 .main-nav li {
@@ -68,4 +68,9 @@ body {
   width: 50%;
   display: block;
   padding: 20px;
+}
+
+.main-heading {
+  background-color: #001f3f;
+  color: #fff;
 }
