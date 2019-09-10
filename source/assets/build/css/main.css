@@ -16,8 +16,10 @@ body {
 }
 
 .main-nav {
-  background-color: #001f3f;
-  font-size: 25px;
+  background-color: #0b1824;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
 }
 .main-nav li {
   display: inline;
@@ -35,6 +37,24 @@ body {
   opacity: 0.5;
 }
 
+.introduction {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1311&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+
+.intro-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  text-align: center;
+}
+
 .profile_container {
   max-width: 129px;
   height: auto;
@@ -45,32 +65,52 @@ body {
   height: 153px;
 }
 
-.introduction {
-  text-align: center;
-}
-
 #tech-stack {
   min-height: 3vh;
 }
 
-.about-me {
-  width: 100%;
-  height: auto;
+.content-container {
+  margin: 20px auto;
+  max-width: 75rem;
+  padding: 0.5rem 3rem;
   text-align: center;
-  font-size: 20px;
   display: flex;
 }
-.about-me img {
-  max-width: 300px;
-  width: 50%;
+
+.about-me-container {
+  margin: 20px auto;
+  max-width: 75rem;
+  padding: 0.5rem 3rem;
+  text-align: center;
 }
-.about-me p {
+
+.about-me {
   width: 50%;
-  display: block;
-  padding: 20px;
+  margin: 0 auto;
+}
+.about-me img {
+  width: auto;
+  height: 200px;
+}
+
+.about-me-text {
+  width: 50%;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto;
 }
 
 .main-heading {
-  background-color: #001f3f;
+  background-color: #0b1824;
   color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 0 20px 0;
+  font-size: 1.7em;
+}
+
+[class^=devicon-] {
+  font-size: 7em;
+  color: #000 !important;
+  margin: 0 auto;
 }

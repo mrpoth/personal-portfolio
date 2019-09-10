@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+/* document.addEventListener("DOMContentLoaded", function() {
 const words = ["HTML & CSS", "PHP", "Javascript", "MySQL"];
 let i = 0;
 let timer;
@@ -38,4 +38,4 @@ function deletingEffect() {
 };
 
 typingEffect();
-});
+});*/
