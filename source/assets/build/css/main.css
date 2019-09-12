@@ -13,6 +13,7 @@ a {
 
 body {
   margin: 0 auto;
+  font-family: "Source Code Pro", monospace;
 }
 
 .main-nav {
@@ -110,7 +111,34 @@ body {
 }
 
 [class^=devicon-] {
-  font-size: 7em;
+  font-size: 4em;
   color: #000 !important;
   margin: 0 auto;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(495px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 75rem;
+}
+@media screen and (max-width: 600px) {
+  .projects-container {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+}
+
+.single-project {
+  opacity: 0.7;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.7);
+}
+.single-project img {
+  width: 100%;
+  height: auto;
+}
+.single-project:hover {
+  opacity: 1;
 }
