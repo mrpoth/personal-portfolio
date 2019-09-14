@@ -50,6 +50,13 @@
 <div class="projects-container">
   <div class="single-project">
   <img src="https://i.imgur.com/KxqnkFJ.png" alt="">
+  <div class="project-description">
+    <h3>Careermap Frontpage</h3>
+    <p>Redeveloped the front+back-end of Careermap, a growing jobs site with more than 100k monthly visitors</p>
+    <p>Tech used:</p>
+    <p>HTML & CSS, JS, PHP, MySQL</p>
+    <a href="https://www.careermap.co.uk">Visit the homepage</a>
+  </div>
   </div>
   <div class="single-project">
   <img src="https://i.imgur.com/KxqnkFJ.png" alt="">
