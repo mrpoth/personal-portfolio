@@ -92,5 +92,5 @@
 </body>
 @endsection
 @push('scripts')
-  <script src="{{mix('js/main.js', 'assets/build')}}"></script>
+  <script src="{{mix('js/email-project.js', 'assets/build')}}"></script>
 @endpush

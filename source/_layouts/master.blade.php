@@ -11,12 +11,8 @@
         <title>@yield('title')</title>
     </head>
         @yield('body')
-    <footer>
       <footer>
-    <div id="footer">
-        <p>Built by Adam Pothitos with Jigsaw, hosted on Netlify</p>
-        <a href="https://github.com/mrpoth/personal-portfolio">Find the source on Github</a>
-    </div>
       @stack('scripts')
+      @yield('footer')
     </footer>
 </html>

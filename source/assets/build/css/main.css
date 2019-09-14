@@ -10,6 +10,7 @@ html {
 a {
   text-decoration: none;
   transition: 0.5s;
+  color: #70beea;
 }
 a:hover {
   color: #a92f2f;
@@ -18,6 +19,7 @@ a:hover {
 body {
   margin: 0 auto;
   font-family: "Source Code Pro", monospace;
+  min-height: 100vh;
 }
 
 .main-nav {
@@ -307,4 +309,10 @@ input[type=text]#chooseEmail:focus {
 #mobile-list {
   display: none;
   flex-direction: column;
+}
+
+.social-container img {
+  width: auto;
+  height: 20px;
+  margin: 0 15px;
 }

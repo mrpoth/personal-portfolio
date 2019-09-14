@@ -38,7 +38,7 @@
 </p>
 </div>
 <div class="about-me">
-  <img src="https://cdn4.iconfinder.com/data/icons/silhouette-of-user/430/2-512.png" alt="bearded avatar image">
+  <img src="https://svgsilh.com/svg/1781443.svg" alt="bearded avatar image">
   </div>
 </div>
 <h2 class="main-heading"  id="skills">Skills</h2>
@@ -86,6 +86,18 @@
   </div>
 </div>
 </body>
+@endsection
+@section('footer')
+
+  <div id="footer">
+      <p>Built by Adam Pothitos with Jigsaw, hosted on Netlify</p>
+      <div class="social-container">
+    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png"
+    ><a href="https://www.linkedin.com/in/adam-pothitos-378154145/">LinkedIn</a>
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"><a href="https://github.com/mrpoth/">GitHub</a>
+</div>
+  </div>
+
 @endsection
 @push('scripts')
   <script src="{{mix('js/main.js', 'assets/build')}}"></script>

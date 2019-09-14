@@ -12,6 +12,7 @@ mix.webpackConfig({
 });
 
 mix.js('source/_assets/js/main.js', 'js')
+    .js('source/_assets/js/email-project.js', 'js')
     .sass('source/_assets/sass/main.scss', 'css')
     .options({
         processCssUrls: false,
