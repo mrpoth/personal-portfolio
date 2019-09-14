@@ -24,6 +24,10 @@ body {
   font-size:30px;
   padding: 20px;
   text-align: center;
+  width:100%;
+  z-index:999;
+  position:fixed;
+  transition:0.4s;
 li {
     display: inline;
     padding: 10px;
@@ -121,9 +125,9 @@ a:hover {
 }
 
 .single-project {
-    opacity: 0.7;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.7);
     position:relative;
+    height: 100%;
     img {
       width: 100%;
       height: auto;
@@ -148,4 +152,97 @@ a:hover {
     &:hover {
       opacity:1;
     }
+  }
+
+/*Styling for email project */
+.card.main {
+  background-color: transparent;
+  width: 350px;
+  height: 200px;
+  perspective: 1000px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.card-body {
+    background-color: #fff;
+    border:3px solid #000;
+}
+.gmailbackground {
+  background: linear-gradient(to right, #d44638, #cb4132, #c33c2c, #ba3627, #b23121);
+  color: #fff;
+}
+
+.microsoftbackground {
+  background: #0072C6;
+  color: #fff;
+}
+
+.applebackground {
+  background-image: linear-gradient(to right, #78c5ef, #70beea, #69b7e6, #61b0e1, #5aa9dc, #539fd4, #4c96cb, #468cc3, #3e7db6, #386ea8, #31609a, #2c528c);
+  color: #fff;
+}
+
+.card-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  min-width: 350px;
+}
+
+.card:hover .card-container {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: 0.7s
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.card-link a {
+  color: #fff;
+}
+.card-list li {
+  text-align:left;
+}
+
+input[type=text]#chooseEmail  {
+    border: 3px solid #000;
+    border-radius: 99em;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    min-width: 305px;
+    &:focus {
+      outline:none;
+    }
+}
+.enterdetails {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+  }
+#hint {
+  font-style:italic;
+}
+#footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: $main-color;
+    color: #fff;
+    text-align: center;
   }

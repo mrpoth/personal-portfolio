@@ -1,6 +1,7 @@
 @extends('_layouts.master')
 @section('title', 'Adam Pothitos - A Personal Site')
 @section('body')
+  <body>
 <nav class="main-nav">
   <ul class="main-menu">
     <li><a href="#intro">Introduction</a></li>
@@ -51,21 +52,28 @@
   <div class="single-project">
   <img src="https://i.imgur.com/KxqnkFJ.png" alt="">
   <div class="project-description">
-    <h3>Careermap Frontpage</h3>
-    <p>Redeveloped the front+back-end of Careermap, a growing jobs site with more than 100k monthly visitors</p>
+    <h3>Careermap</h3>
+    <p>Redeveloped various pages of Careermap, a growing jobs site with more than 100k monthly visitors</p>
     <p>Tech used:</p>
     <p>HTML & CSS, JS, PHP, MySQL</p>
     <a href="https://www.careermap.co.uk">Visit the homepage</a>
+    <br>
+    <a href="https://www.careermap.co.uk/careermag">Visit Careermag</a>
   </div>
   </div>
   <div class="single-project">
-  <img src="https://i.imgur.com/KxqnkFJ.png" alt="">
+  <img src="https://i.imgur.com/8dxcHeG.png" alt="">
+  <div class="project-description">
+    <h3>FAQ Project</h3>
+    <p>Built for a support intranet, this version is specific to emails but could be applied to any topic.</p>
+    <p>Tech used:</p>
+    <p>HTML & CSS, JS</p>
+    <a href="https://www.adampothitos.me/email-project/">Test it for yourself!</a>
   </div>
-  <div class="single-project">
-  <img src="https://i.imgur.com/KxqnkFJ.png" alt="">
-  </div>
-  <div class="single-project">
-  <img src="https://i.imgur.com/KxqnkFJ.png" alt="">
   </div>
 </div>
+</body>
 @endsection
+@push('scripts')
+  <script src="{{mix('js/main.js', 'assets/build')}}"></script>
+@endpush

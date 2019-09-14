@@ -7,11 +7,16 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-        <script src="{{mix('js/main.js', 'assets/build')}}"></script>
-
+        {{-- <script src="{{mix('js/main.js', 'assets/build')}}"></script> --}}
         <title>@yield('title')</title>
     </head>
-    <body>
         @yield('body')
-    </body>
+    <footer>
+      <footer>
+    <div id="footer">
+        <p>Built by Adam Pothitos with Jigsaw, hosted on Netlify</p>
+        <a href="https://github.com/mrpoth/personal-portfolio">Find the source on Github</a>
+    </div>
+      @stack('scripts')
+    </footer>
 </html>
