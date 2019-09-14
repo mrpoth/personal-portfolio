@@ -11,6 +11,19 @@
     <li><a href="#">Contact</a></li>
   </ul>
 </nav>
+<nav class="main-nav" id="mobile-nav">
+  <a href="#menu" class="box-shadow-menu" id="mobile-menu">
+    Menu
+  <ul class="main-menu"  id="mobile-list">
+    <li><a href="#intro">Introduction</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills & Tech</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+</a>
+
 <div class="introduction" id="intro">
   <div class="intro-text">
   <h2>Hi, I'm Adam,</h2>
