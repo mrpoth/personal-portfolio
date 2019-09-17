@@ -160,7 +160,34 @@ a:hover {
       opacity:1;
     }
   }
-
+  .contact-container {
+      max-width: 75rem;
+      margin: 0 auto;
+  }
+  input, textarea, button {
+    width: 250px;
+    max-width: 100%;
+    padding: 10px;
+    margin:0 auto;
+    border-radius: 5px;
+  }
+  button {
+    color:#fff;
+    background-color:$secondary-color;
+    margin-top:10px;
+  }
+  form#main-form {
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:column;
+}
+  label {
+    padding:5px;
+    display:inline-block;
+    margin:0 auto;
+  }
 /*Styling for email project */
 .card.main {
   background-color: transparent;

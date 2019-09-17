@@ -85,6 +85,16 @@
   </div>
   </div>
 </div>
+<h2 class="main-heading" id="contact">Contact</h2>
+<div class="contact-container">
+  <form name="contact" method="POST" data-netlify="true" id="main-form">
+  <label for="name">Name*</label><input type="text" name="name" placeholder="Name" required>
+  <label for="email">Email*</label><input type="email" name="email" placeholder="Email" required>
+  <label for="number">Number</label> <input type="tel" name="number">
+  <label for="message">Message</label><textarea name="message" rows="8" cols="80"></textarea>
+  <button type="submit" name="submit">Get in Touch!</button>
+</form>
+</div>
 </body>
 @endsection
 @section('footer')
