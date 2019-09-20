@@ -3,7 +3,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:after,
+*:before {
   box-sizing: inherit;
 }
 
@@ -64,8 +66,8 @@ body {
 
 .intro-text {
   position: absolute;
-  left: 50%;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-size: 35px;
   text-align: center;
@@ -121,7 +123,7 @@ body {
   color: #fff;
   text-align: center;
   padding: 20px 0;
-  margin: 0 0 20px 0;
+  margin: 0 0 20px;
   font-size: 1.7em;
 }
 
@@ -162,11 +164,11 @@ body {
 
 .project-description {
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   opacity: 0;
@@ -183,7 +185,9 @@ body {
   margin: 0 auto;
 }
 
-input, textarea, button {
+button,
+input,
+textarea {
   width: 250px;
   max-width: 100%;
   padding: 10px;
@@ -218,8 +222,8 @@ label {
   height: 200px;
   perspective: 1000px;
   position: absolute;
-  left: 50%;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -257,8 +261,8 @@ label {
   transform: rotateY(180deg);
 }
 
-.front,
-.back {
+.back,
+.front {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -347,5 +351,5 @@ input[type=text]#chooseEmail:focus {
 .social-container img {
   width: auto;
   height: 20px;
-  margin: 0 15px;
+  margin: 0 3px;
 }

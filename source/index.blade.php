@@ -34,7 +34,7 @@
 <h2 class="main-heading"  id="about">A little bit about me</h2>
 <div class="about-me-container">
   <div class="about-me-text">
-  <p>I've been doing dev work professionally since August 2019. Before that, I've been involved with tech in other ways, including writing for numerous publications.
+  <p>I've been doing dev work professionally since August 2018. Before that, I've been involved with tech in other ways, including writing for numerous publications.
 </p>
 </div>
 <div class="about-me">
@@ -71,7 +71,7 @@
     <p>HTML & CSS, JS, PHP, MySQL</p>
     <a href="https://www.careermap.co.uk">Visit the homepage</a>
     <br>
-    <a href="https://www.careermap.co.uk/careermag">Visit Careermag</a>
+    <a href="http://www.careermap.co.uk/careermag">Visit Careermag</a>
   </div>
   </div>
   <div class="single-project">
