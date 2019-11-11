@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-        {{-- <script src="{{mix('js/main.js', 'assets/build')}}"></script> --}}
         <title>@yield('title')</title>
     </head>
         @yield('body')

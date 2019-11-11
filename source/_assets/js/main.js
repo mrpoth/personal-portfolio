@@ -1,6 +1,5 @@
 //Mobile Menu
-document.getElementById('mobile-menu').addEventListener('click', function mobileMenu()
-{
+document.getElementById('mobile-menu').addEventListener('click', function mobileMenu() {
   var menu = document.getElementById('mobile-list');
   if (menu.style.display === 'flex') {
     menu.style.display = 'none';
@@ -13,7 +12,7 @@ document.getElementById('mobile-menu').addEventListener('click', function mobile
 //Hide scrollbar on scroll-down, show on scroll-up
 
 var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
+window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.querySelector(".main-nav").style.top = "0";
