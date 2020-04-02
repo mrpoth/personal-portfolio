@@ -49,11 +49,6 @@ body {
 .main-nav a:hover {
   opacity: 0.5;
 }
-@media screen and (max-width: 600px) {
-  .main-nav {
-    display: none;
-  }
-}
 
 .introduction {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1311&q=80);
@@ -238,7 +233,7 @@ label {
 }
 
 .microsoftbackground {
-  background: #0072C6;
+  background: #0072c6;
   color: #fff;
 }
 
@@ -315,37 +310,47 @@ input[type=text]#chooseEmail:focus {
   text-align: center;
 }
 
-.box-shadow-menu {
+#menu-label {
   position: absolute;
   padding-left: 1.25em;
   font-size: 30px;
   left: 0;
-  top: 0;
+  top: -36px;
 }
 
-.box-shadow-menu:before {
+#menu-label:before {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.25em;
+  top: 0.35em;
   width: 1em;
   height: 0.15em;
   background: #fff;
   box-shadow: 0 0.25em 0 0 #fff, 0 0.5em 0 0 #fff;
 }
 
-#mobile-nav {
+#menu-label {
   display: none;
 }
+
 @media screen and (max-width: 600px) {
-  #mobile-nav {
+  .main-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #menu-list {
+    display: none;
+  }
+
+  #menu-label {
     display: block;
   }
 }
-
 #mobile-list {
   display: none;
   flex-direction: column;
+  margin-top: 1em;
 }
 
 .social-container img {

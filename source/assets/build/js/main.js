@@ -94,25 +94,30 @@
 /***/ (function(module, exports) {
 
 //Mobile Menu
-document.getElementById('mobile-menu').addEventListener('click', function mobileMenu() {
-  var menu = document.getElementById('mobile-list');
-
-  if (menu.style.display === 'flex') {
-    menu.style.display = 'none';
-  } else {
-    menu.style.display = 'flex';
-  }
-}); //Hide scrollbar on scroll-down, show on scroll-up
-
+var menu = document.getElementById("menu-list");
 var prevScrollpos = window.pageYOffset;
+var mainNav = document.querySelector(".main-nav");
+document.querySelector(".mobile-menu").addEventListener("click", function mobileMenu() {
+  if (menu.style.display === "flex") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "flex";
+  }
+}); //Hide mobile menu when clicking outside its body
+
+document.body.addEventListener("click", function (e) {
+  if (e.target.id !== "menu-label") {
+    mainNav.style.top = "-550px";
+  }
+}); //Hide scrollbar on scroll-down, show on scroll-ups
 
 window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
 
   if (prevScrollpos > currentScrollPos) {
-    document.querySelector(".main-nav").style.top = "0";
+    mainNav.style.top = "0";
   } else {
-    document.querySelector(".main-nav").style.top = "-150px";
+    mainNav.style.top = "-550px";
   }
 
   prevScrollpos = currentScrollPos;

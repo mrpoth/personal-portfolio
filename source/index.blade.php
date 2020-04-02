@@ -4,26 +4,17 @@
 
 <body>
   <nav class="main-nav">
-    <ul class="main-menu">
+      <a href="#menu" class="mobile-menu">
+          <h3 id="menu-label">Menu</h3>
+    <ul class="main-menu" id="menu-list">
       <li><a href="#intro">Introduction</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills & Tech</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-  </nav>
-  <nav class="main-nav" id="mobile-nav">
-    <a href="#menu" class="box-shadow-menu" id="mobile-menu">
-      Menu
-      <ul class="main-menu" id="mobile-list">
-        <li><a href="#intro">Introduction</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills & Tech</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-  </nav>
   </a>
+  </nav>
 
   <div class="introduction" id="intro">
     <div class="intro-text">
@@ -64,7 +55,7 @@
   <h2 class="main-heading" id="projects">Some of my projects</h2>
   <div class="projects-container">
     <div class="single-project">
-      <img src="https://i.imgur.com/KxqnkFJ.png" alt="">
+      <img src="https://i.imgur.com/KxqnkFJ.png" alt="careermap homepage screenshot">
       <div class="project-description">
         <h3>Careermap</h3>
         <p>Redeveloped various pages of Careermap, a growing jobs site with more than 100k monthly visitors</p>
@@ -76,7 +67,7 @@
       </div>
     </div>
     <div class="single-project">
-      <img src="https://i.imgur.com/8dxcHeG.png" alt="">
+      <img src="https://i.imgur.com/8dxcHeG.png" alt="custom FAQ project screenshot">
       <div class="project-description">
         <h3>FAQ Project</h3>
         <p>Built for a support intranet, this version is specific to emails but could be applied to any topic.</p>
@@ -89,10 +80,10 @@
   <h2 class="main-heading" id="contact">Contact</h2>
   <div class="contact-container">
     <form name="contact" method="POST" data-netlify="true" id="main-form">
-      <label for="name">Name*</label><input type="text" name="name" placeholder="Name" required>
-      <label for="email">Email*</label><input type="email" name="email" placeholder="Email" required>
-      <label for="number">Number</label> <input type="tel" name="number">
-      <label for="message">Message</label><textarea name="message" rows="8" cols="80"></textarea>
+      <label for="name">Name*</label><input type="text" name="name" id="name" required>
+      <label for="email">Email*</label><input type="email" name="email" id="email" required>
+      <label for="number">Number</label> <input type="tel" name="number" id="number">
+      <label for="message">Message</label><textarea name="message" rows="8" cols="80" id="message"></textarea>
       <button type="submit" name="submit">Get in Touch!</button>
     </form>
   </div>
@@ -103,11 +94,11 @@
 <div id="footer">
   <p>Built by Adam Pothitos with Jigsaw, hosted on Netlify</p>
   <div class="social-container">
-    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" width="20" height="20">
+    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" width="20" height="20" alt="LinkedIn Logo">
     <a href="https://www.linkedin.com/in/adam-pothitos-378154145/">LinkedIn</a>
-    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" height="20">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" height="20" alt="GitHub Logo">
     <a href="https://github.com/mrpoth/">GitHub</a>
-    <img src="https://cdn.pixabay.com/photo/2017/03/24/02/25/resume-2169945_960_720.png" width="20" height="20">
+    <img src="https://cdn.pixabay.com/photo/2017/03/24/02/25/resume-2169945_960_720.png" width="20" height="20" alt="Document Icon">
     <a href="https://drive.google.com/file/d/17uPe2Kp93EGPbr27AQ1D6ybu1EexGcJH/view?usp=sharing">Resume</a>
   </div>
 </div>
