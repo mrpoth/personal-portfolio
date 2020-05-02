@@ -65,6 +65,7 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1311&q=80);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   height: 100vh;
   color: #fff;
@@ -141,15 +142,11 @@ body {
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(495px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-template-rows: auto;
   grid-gap: 1rem;
   align-items: center;
-  margin: 0 auto;
-  max-width: 75rem;
-  @media screen and (max-width: 600px) {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  }
+  margin: 1rem;
 }
 
 .single-project {

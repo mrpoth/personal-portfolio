@@ -46,24 +46,41 @@
     <i class="devicon-laravel-plain colored"></i>
     <i class="devicon-wordpress-plain colored"></i>
   </div>
+  <div class="content-container">
+    <i class="devicon-vuejs-plain"></i>
+    <i class="devicon-nodejs-plain"></i>
+    <i class="devicon-express-original"></i>
+    <i class="devicon-mongodb-plain"></i>
+  </div>
   <h2 class="main-heading">Tech</h2>
   <div class="content-container" id="tech">
     <i class="devicon-git-plain colored"></i>
     <i class="devicon-github-plain colored"></i>
-    <i class="devicon-atom-original colored"></i>
+    <i class="devicon-visualstudio-plain"></i>
+    <i class="devicon-phpstorm-plain"></i>
   </div>
   <h2 class="main-heading" id="projects">Some of my projects</h2>
   <div class="projects-container">
     <div class="single-project">
-      <img src="https://i.imgur.com/KxqnkFJ.png" alt="careermap homepage screenshot">
+      <img src="https://i.imgur.com/CcYJOCE.png" alt="careermap homepage screenshot">
       <div class="project-description">
         <h3>Careermap</h3>
         <p>Redeveloped various pages of Careermap, a growing jobs site with more than 100k monthly visitors</p>
         <p>Tech used:</p>
         <p>HTML & CSS, JS, PHP, MySQL</p>
-        <a href="https://www.careermap.co.uk">Visit the homepage</a>
+        <a href="https://www.careermap.co.uk" target="_blank">Visit the homepage</a>
         <br>
-        <a href="http://www.careermap.co.uk/careermag">Visit Careermag</a>
+        <a href="http://www.careermap.co.uk/careermag" target="_blank">Visit Careermag</a>
+      </div>
+    </div>
+    <div class="single-project">
+      <img src="https://i.imgur.com/7KyOAF3.png" alt="MoviesRoulette homepage">
+      <div class="project-description">
+        <h3>Movies Roulette</h3>
+        <p>A movie generator for random top-rated movies as I never know what to watch!</p>
+        <p>Tech used:</p>
+        <p>Vue, Node/Express, MongoDB</p>
+        <a href="http://www.moviesroulette.com" target="_blank">Find a movie to watch</a>
       </div>
     </div>
     <div class="single-project">
@@ -73,7 +90,7 @@
         <p>Built for a support intranet, this version is specific to emails but could be applied to any topic.</p>
         <p>Tech used:</p>
         <p>HTML & CSS, JS</p>
-        <a href="https://www.adampothitos.me/email-project/">Test it for yourself!</a>
+        <a href="https://www.adampothitos.me/email-project/" target="_blank">Test it for yourself!</a>
       </div>
     </div>
   </div>
