@@ -13,3 +13,5 @@ yarn-error.log
 # /source/assets/build/css/
 # /source/assets/build/fonts/
 # /source/assets/build/js/
+source/assets/build/mix-manifest.json
+source/assets/build/css/main.css

@@ -3,5 +3,11 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'collections' => [],
+    'collections' => [
+        'posts' => [
+            'author' => 'Adam Pothitos',
+        ],
+
+    ],
+
 ];

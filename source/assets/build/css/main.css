@@ -175,6 +175,58 @@ body {
   margin: 0 auto;
 }
 
+/* Blog styling */
+.text-center {
+  text-align: center;
+}
+
+.posts-container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.posts-content {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 1px 15px;
+}
+.posts-content img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.posts-content em {
+  display: block;
+  text-align: center;
+}
+
+.featured-image {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+.featured-image:first-child {
+  margin-top: 80px;
+}
+
+.posts-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  padding: 5px;
+}
+.posts-image:first-child {
+  margin-top: 80px;
+}
+
+.blog-container {
+  text-align: center;
+}
+
 button,
 input,
 textarea {
@@ -298,8 +350,6 @@ input[type=text]#chooseEmail:focus {
 
 #footer {
   width: 100%;
-  position: relative;
-  bottom: 0;
   background-color: #0b1824;
   color: #fff;
   text-align: center;
