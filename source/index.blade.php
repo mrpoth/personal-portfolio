@@ -1,21 +1,8 @@
 @extends('_layouts.master')
-@section('title', 'Adam Pothitos - A Personal Site')
+@section('title', 'Adam Pothitos - Web Developer')
 @section('body')
-
 <body>
-  <nav class="main-nav">
-      <a href="#menu" class="mobile-menu">
-          <h3 id="menu-label">Menu</h3>
-    <ul class="main-menu" id="menu-list">
-      <li><a href="#intro">Introduction</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills & Tech</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </a>
-  </nav>
-
+  @include('_partials.nav')
   <div class="introduction" id="intro">
     <div class="intro-text">
       <h2>Hi, I'm Adam,</h2>
@@ -107,20 +94,9 @@
 </body>
 @endsection
 @section('footer')
-
-<div id="footer">
-  <p>Built by Adam Pothitos with Jigsaw, hosted on Netlify</p>
-  <div class="social-container">
-    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" width="20" height="20" alt="LinkedIn Logo">
-    <a href="https://www.linkedin.com/in/adam-pothitos-378154145/">LinkedIn</a>
-    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" height="20" alt="GitHub Logo">
-    <a href="https://github.com/mrpoth/">GitHub</a>
-    <img src="https://cdn.pixabay.com/photo/2017/03/24/02/25/resume-2169945_960_720.png" width="20" height="20" alt="Document Icon">
-    <a href="https://drive.google.com/file/d/17uPe2Kp93EGPbr27AQ1D6ybu1EexGcJH/view?usp=sharing">Resume</a>
-  </div>
-</div>
-
-@endsection
 @push('scripts')
 <script src="{{mix('js/main.js', 'assets/build')}}"></script>
 @endpush
+@include('_partials.main-footer')
+
+@endsection
